@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.neural_network import MLPClassifier
 from sklearn.model_selection import GridSearchCV
 
-def DesTree(load):
+def DesTree():
     data = []
     rawData = gzip.open("Electronics_5.json.gz", 'r')
     for i in rawData:
