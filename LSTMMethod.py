@@ -1,5 +1,6 @@
+#Alisa Sinkevich
+
 import tensorflow as tf
-import numpy as np
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.models import Sequential
@@ -75,4 +76,3 @@ model.compile(
 
 # Train!
 m = model.fit(xtrain, yTrain, epochs=10, validation_data=(xTest, yTest), verbose=2)
-
